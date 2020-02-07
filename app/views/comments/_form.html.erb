@@ -1,12 +1,12 @@
-<h3>Leave a comment</h3>
+<h3>Leave a comment (<%= @article.comments.size %>)</h3>
 
 <%= form_for [ @article, @comment ] do |f| %>
   <p>
-    <%= f.label :author %><br>
+    <%= f.label :author, "Your Name" %><br>
     <%= f.text_field :author%>
   </p>
   <p>
-    <%= f.label :body %><br>
+    <%= f.label :body, "Your Comment" %><br>
     <%= f.text_area :body %>
   </p>
   <p>
