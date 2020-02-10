@@ -2,6 +2,8 @@ class Article < ApplicationRecord
   has_many :comments
   has_many :taggings
   has_many :tags, through: :taggings, dependent: :destroy
+  has_attached_file :image
+  validates_attachment_content_type :image, :content_type => ['image/jpeg', 'image/png', 'image/gif']
 
   def tag_list
     tags.collect do |tag|
