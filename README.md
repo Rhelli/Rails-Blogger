@@ -58,7 +58,7 @@ If you're not sure what either of those is or need pointing in the right directi
       - localhost:3000/tags
 6. Please be aware that some of these pages do not have full functionality unless you are logged in. To test this, please use the following `email: admin@example.com password: admin`.
 
-## � Contributions, Issues and Forking
+## 🤲🏽 Contributions, Issues and Forking
 
 If you have any issues setting up the project or you come across any unintended bugs or problems, please do submit an issue to the [Rails Blogger Issue Page](https://github.com/Rhelli/Rails-Blogger/issues)
 
@@ -73,6 +73,6 @@ If you want to make your own changes, modifications or improvements, go ahead an
 
 Rory Hellier - [GitHub](https://github.com/Rhelli)
 
-## 👏🏽 Show Your Support
+## 📣 Show Your Support
 
 Give a ⭐️ if you like this project!
