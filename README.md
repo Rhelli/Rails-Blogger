@@ -30,19 +30,19 @@ The scope of this project covers:
 
 ## Showcase
 
-<a href="app/assets/articles-screen.gif"><img src="app/assets/articles-screen.gif" alt="Articles Screen" width="800" height="464"></a>
+<a href="app/assets/images/articles-screen.gif"><img src="app/assets/images/articles-screen.gif" alt="Articles Screen" width="800" height="464"></a>
 
 > Browsing articles from the 'index' page and navigating to the articles 'show' page.
 
-<a href="app/assets/authors-screen.gif"><img src="app/assets/authors-screen.gif" alt="Authors Screen" width="800" height="464"></a>
+<a href="app/assets/images/authors-screen.gif"><img src="app/assets/images/authors-screen.gif" alt="Authors Screen" width="800" height="464"></a>
 
 > Logging in provides the user with additional options, such as editing and deleting articles, as well as creating them.
 
-<a href="app/assets/create-article-screen.gif"><img src="app/assets/create-article-screen.gif" alt="Create Article Screen" width="800" height="464"></a>
+<a href="app/assets/images/create-article-screen.gif"><img src="app/assets/images/create-article-screen.gif" alt="Create Article Screen" width="800" height="464"></a>
 
 > Once logged in, users can create articles, add images to the articles and add comments.
 
-<a href="app/assets/tags-screen.gif"><img src="app/assets/tags-screen.gif" alt="Tags Screen" width="800" height="464"></a>
+<a href="app/assets/images/tags-screen.gif"><img src="app/assets/images/tags-screen.gif" alt="Tags Screen" width="800" height="464"></a>
 
 > Users can browse through articles via Tags and can delete tags when they are logged in.
 
