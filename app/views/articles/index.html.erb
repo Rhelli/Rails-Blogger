@@ -1,0 +1,12 @@
+<h1>Latest Articles</h1>
+
+<ul id = 'Articles'>
+  <% @articles.each do |article| %>
+    <li>
+      <h3><%= link_to article.title, article_path(article) %></h3>
+    </li><br>
+  <% end %>
+</ul>
+<% if logged_in? %>
+  <%= link_to 'Create a new post', new_article_path, class: "new_article" %>
+<% end %>

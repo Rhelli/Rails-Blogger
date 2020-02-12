@@ -1,0 +1,14 @@
+<h1>Browse Article by Tags</h1>
+
+<ul id = 'Tags'>
+  <% @tags.each do |tag| %>
+    <li>
+      <h3><%= link_to tag.name, tag_path(tag) %></h3>
+          <% if logged_in? %>
+            <%= link_to "Delete Tag", tag_path(tag), method: :delete, data: { confirm: 'Are you sure?' } %><br><br>
+          <% end %>
+    </li><br>
+  <% end %>
+</ul>
+
+<%= link_to 'Create a new post', new_article_path, class: "new_article" %>
