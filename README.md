@@ -1,8 +1,10 @@
 # 📑 Blogger Web App - Ruby on Rails
 
-This project is part of a series of projects to be completed by students of [Microverse](https://www.microverse.org/ 'The Global School for Remote Software Developers!').
-
 This is another, quick project devised to practice the basics of creating Rails web apps. This time, it's a blog. However, unlike my previous [Rails blog app](https://github.com/Rhelli/Simple-Rails-Blog), this blog is a little more complex. It possesses all the features you might expect from a web blog (or any other rails based web app), at an entry level perspective.
+
+## 🖱️ The Project Brief
+
+The specifications and the guide to the project can be found on the ['Getting Started with Rails'](https://guides.rubyonrails.org/getting_started.html) page from [guides.rubyonrails.org](https://guides.rubyonrails.org/).
 
 The scope of this project covers:
   - Articles
@@ -22,11 +24,29 @@ The scope of this project covers:
   - Authentication
     - Protection of creation, editing and deleting user accounts, articles, tags and comments unless signed in
     - User account and article creation is open only to those signed in
-    - Basic email and HTTp password authentication
+    - Basic email and HTTP password authentication
 
-## 🖱️ The Project Brief
+******
 
-The specifications and the guide to the project can be found on the ['Getting Started with Rails'](https://guides.rubyonrails.org/getting_started.html) page from [guides.rubyonrails.org](https://guides.rubyonrails.org/).
+## Showcase
+
+<a href="app/assets/articles-screen.gif"><img src="app/assets/articles-screen.gif" alt="Articles Screen" width="800" height="464"></a>
+
+> Browsing articles from the 'index' page and navigating to the articles 'show' page.
+
+<a href="app/assets/authors-screen.gif"><img src="app/assets/authors-screen.gif" alt="Authors Screen" width="800" height="464"></a>
+
+> Logging in provides the user with additional options, such as editing and deleting articles, as well as creating them.
+
+<a href="app/assets/create-article-screen.gif"><img src="app/assets/create-article-screen.gif" alt="Create Article Screen" width="800" height="464"></a>
+
+> Once logged in, users can create articles, add images to the articles and add comments.
+
+<a href="app/assets/tags-screen.gif"><img src="app/assets/tags-screen.gif" alt="Tags Screen" width="800" height="464"></a>
+
+> Users can browse articles via Tags and can delete tags when they are logged in.
+
+******
 
 ## 💪🏽 Technologies, Languages & Gems Used
 
