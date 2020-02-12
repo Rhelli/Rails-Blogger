@@ -44,7 +44,7 @@ The scope of this project covers:
 
 <a href="app/assets/tags-screen.gif"><img src="app/assets/tags-screen.gif" alt="Tags Screen" width="800" height="464"></a>
 
-> Users can browse articles via Tags and can delete tags when they are logged in.
+> Users can browse through articles via Tags and can delete tags when they are logged in.
 
 ******
 
